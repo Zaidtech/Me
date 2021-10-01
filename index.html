@@ -56,7 +56,8 @@
   
   <!-- Back to top button -->
   <div class="btn-back_to_top">
-    <span class="ti-arrow-up"></span>
+    <!-- <span class="ti-arrow-up"></span> -->
+    <span> Top </span>
   </div>
   
   <!-- Setting button -->
@@ -96,9 +97,9 @@
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
             </li>
@@ -133,15 +134,16 @@
           <h5 class="fg-theme mb-3">Cloud Enthusiast / Web Developer</h5>
           <p class="text-muted">
             A Google Cloud enthusiast, interested in Web app Development. Exploring different stacks to engineer new stuff. 
-          </p>
-          
+          </p>          
             <ul class="theme-list">
             <li><b>From:</b> Agra, India</li>
             <li><b>Lives In:</b> Aligarh, India</li>
             <li><b>Age:</b> 21</li>
             <li><b>Gender:</b> Male</li>
           </ul>
-          <button class="btn btn-theme-outline">Download CV</button>
+          <button class="btn btn-theme-outline">
+            <a href="../CV_Zaid.pdf" download="CV_Zaid"> Download CV</a>
+          </button>
         </div>
       </div>
     </div>
@@ -168,6 +170,9 @@
         <div class="col-md-4">
           <h4 class="wow fadeInUp">Tools / Technology</h4>
           <div class="progress-wrapper wow fadeInUp">
+            <span class="caption">Google Cloud Platform</span>
+          </div>    
+          <div class="progress-wrapper wow fadeInUp">
             <span class="caption">Postman</span>
           </div>
           <div class="progress-wrapper wow fadeInUp">
@@ -176,27 +181,27 @@
           <div class="progress-wrapper wow fadeInUp">
             <span class="caption">Wireshark</span>
           </div>
-          <div class="progress-wrapper wow fadeInUp">
-            <span class="caption">Google cloud Platform</span>
-          </div>            
         </div>
-        <!-- <div class="col-md-4">
+        <div class="col-md-4">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Programming / Scripting</h4>
+            <h4 class="wow fadeInUp">Frameworks /  Database </h4>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Python</span>
+              <span class="caption">Flask</span>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Bash</span>
+              <span class="caption">ExpressJs</span>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">NodeJs</span>
+              <span class="caption">React</span>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">C++</span>
-            </div>            
+              <span class="caption">MySQL</span>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">MongoDB</span>
+            </div>                        
           </div>
-        </div>     -->
+        </div>    
       </div>  
          
           
@@ -281,27 +286,42 @@
       <div class="text-center wow fadeInUp">
         <!-- <div class="badge badge-subhead">Service</div> -->
       </div>
-      <h1 class="fw-normal text-center wow fadeInUp">What I Do</h1>
+      <h1 class="fw-normal text-center wow fadeInUp">Profiles</h1>
       <div class="row mt-5">
+        <!-- <div class="col-md-1 col-lg-1 col-xl-1">
+
+        </div> -->
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-              <img src="./assets/img/image_gcp.png" style = "height:110px";   alt="">
+              <img src="./assets/img/logo/Qwiklabs.png" style = "height:110px";   alt="">
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Cloud Computing</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
+              <h4 class="fg-theme">Qwiklabs</h4>
+              <!-- <p>There are many variations of passages of Lorem Ipsum available</p> -->
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-              <span class="ti-desktop"></span>
+              <img src="./assets/img/logo/Linkedin.png" style = "height:110px";   alt="">
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Web Development</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
+              <h4 class="fg-theme">LinkedIn</h4>
+              <!-- <p>There are many variations of passages of Lorem Ipsum available</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <!-- <span class="ti-desktop"></span> -->
+              <img src="./assets/img/logo/Github.jpg"  style = "height:110px"; alt="">
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">GitHub</h4>
+              <!-- <p>There are many variations of passages of Lorem Ipsum available</p> -->
             </div>
           </div>
         </div>
@@ -309,7 +329,7 @@
     </div>
   </div>
   
-  <div class="vg-page page-funfact" style="background-image: url(./assets/img/bg_banner.jpg);">
+  <!-- <div class="vg-page page-funfact" style="background-image: url(./assets/img/bg_banner.jpg);">
     <div class="container">
       <div class="row section-counter">
         <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
@@ -330,7 +350,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
@@ -351,33 +371,35 @@
 
       <div class="gridder my-3">
         <div class="grid-item apps wow zoomIn">
-          <div class="img-place" data-src="./assets/img/work/work-1.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
-            <img src="./assets/img/work/work-1.jpg" alt="">
+          <div class="img-place" data-src="./assets/img/work/Connect.png" data-fancybox data-caption=" <h5 class='fg-theme'>Social Media App</h5> <p>Discovery</p> <a href='https://connect-326117.el.r.appspot.com/'>LINK</a> ">
+            <img src="./assets/img/work/Connect.png" alt="">
             <div class="img-caption">
-              <h5 class="fg-theme">Mobile Travel App</h5>
-              <p>Travel, Discovery</p>
+              <h5 class="fg-theme">Connect</h5>
+              <p>Social Media</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item apps ios wow zoomIn">
+          <div class="img-place" data-src="./assets/img/work/VLAB.png" data-fancybox data-caption="<h5 class='fg-theme'>Virtual Lab for Aligarh Muslim University </h5> <p>Education, Virtual LAB</p>">
+            <img src="./assets/img/work/VLAB.png" alt="">
+            <div class="img-caption">
+              <h5 class="fg-theme">AMU Virtual Lab </h5>
+              <p>Virtual Lab Platform</p>
             </div>
           </div>
         </div>
         <div class="grid-item template wireframes wow zoomIn">
-          <div class="img-place" data-src="./assets/img/work/work-2.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
-            <img src="./assets/img/work/work-2.jpg" alt="">
+          <div class="img-place" data-src="./assets/img/work/quran.jpeg" data-fancybox data-caption="<h5 class='fg-theme'>Quran Downloader </h5> <p>Quran</p>  <a href='https://github.com/Zaidtech/QuranDownoader'>LINK</a>">
+            <img src="./assets/img/work/quran.jpeg" alt="">
             <div class="img-caption">
-              <h5 class="fg-theme">Music App</h5>
-              <p>Musics</p>
+              <h5 class="fg-theme">  Complete Quran Downloader  </h5>
+              <p> Quran </p>
             </div>
           </div>
         </div>
-        <div class="grid-item apps ios wow zoomIn">
-          <div class="img-place" data-src="./assets/img/work/work-3.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
-            <img src="./assets/img/work/work-3.jpg" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Gaming Dashboard</h5>
-              <p>Games, Streaming</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item graphic ui-ux wow zoomIn">
+        
+        <!-- <div class="grid-item graphic ui-ux wow zoomIn">
           <div class="img-place" data-src="./assets/img/work/work-4.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
             <img src="./assets/img/work/work-4.jpg" alt="">
             <div class="img-caption">
@@ -385,8 +407,8 @@
               <p>Health, Drugs</p>
             </div>
           </div>
-        </div>
-        <div class="grid-item apps ios wow zoomIn">
+        </div> -->
+        <!-- <div class="grid-item apps ios wow zoomIn">
           <div class="img-place" data-src="./assets/img/work/work-5.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>">
             <img src="./assets/img/work/work-5.jpg" alt="">
             <div class="img-caption">
@@ -394,8 +416,8 @@
               <p>Musics, Dashboard</p>
             </div>
           </div>
-        </div>
-        <div class="grid-item graphic ui-ux wireframes wow zoomIn">
+        </div> -->
+        <!-- <div class="grid-item graphic ui-ux wireframes wow zoomIn">
           <div class="img-place" data-src="./assets/img/work/work-6.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
             <img src="./assets/img/work/work-6.jpg" alt="">
             <div class="img-caption">
@@ -403,7 +425,7 @@
               <p>Games, Streaming</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div> <!-- End gridder -->
       <div class="text-center wow fadeInUp">
         <a href="javascript:void(0)" class="btn btn-theme">Load More</a>
@@ -472,7 +494,7 @@
   <!-- End testimonial -->
   
   <!-- Client -->
-  <div class="vg-page page-client">
+  <!-- <div class="vg-page page-client">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-4 col-xl-3 item">
@@ -519,10 +541,11 @@
         </div>
       </div>
     </div>
-  </div> <!-- End client -->
+  </div>  -->
+  <!-- End client -->
   
   <!-- Blog -->
-  <div class="vg-page page-blog" id="blog">
+  <!-- <div class="vg-page page-blog" id="blog">
     <div class="container">
       <div class="text-center">
         <div class="badge badge-subhead wow fadeInUp">Blog</div>
@@ -569,8 +592,9 @@
           <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
         </div>
       </div>
-    </div>
-  </div> <!-- End blog -->
+    </div> 
+  </div>  -->
+  <!-- End blog -->
   
   <!-- Contact -->
   <div class="vg-page page-contact" id="contact">

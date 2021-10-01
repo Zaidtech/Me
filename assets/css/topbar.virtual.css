@@ -503,7 +503,7 @@
 
 .theme-red .filterable-button .btn.selected,
 .theme-red .filterable-button .btn:focus {
-  background-color: #EF3724;
+  background-color: #030f36;
   color: #fff;
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #EF3724;
 }
